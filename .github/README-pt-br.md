@@ -1,28 +1,26 @@
 # weekly
 
-> Easily generate a weekly recommendation
+> Gerando as recomendações para a weekly facilmente
 
-A package to made our lives easy when build links to Weekly repositories
+Um pacote para facilitar as nossas vidas quando estivermos escrevendo as recomendaçÕes para a BRJS Weekly.
 
-[pt-br](.github/README-pt-br.md)
+## Como utilizar
 
-## How to use
-
-Install the CLI:
+Instale a CLI via NPM:
 
 ```shell
 npm i weekly-cli -g
 ```
 
-Run the CLI:
+Execute a CLI:
 
 ```shell
 weekly-cli
 ```
 
-Answer the questions. :)
+Responda as perguntas. :)
 
-In the end your responses will be in clipboard, like this:
+As respostas estarão no clipboard, parecido com isso:
 
 ```
 **[O caminho do arco-íris estudando programação}](https://woliveiras.com.br/posts/o-caminho-do-arco-iris-estudando-programa%C3%A7%C3%A3o/)**
