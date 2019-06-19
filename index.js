@@ -1,8 +1,5 @@
-/* eslint-disable no-console */
 const prompts = require('prompts');
 const clipboardy = require('clipboardy');
-
-// Application
 const QUESTIONS = require('./constants').QUESTIONS;
 const LABELS = require('./constants').LABELS;
 const TEMPLATE = require('./constants').TEMPLATE;
