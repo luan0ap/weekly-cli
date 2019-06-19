@@ -1,9 +1,9 @@
 {
-  "name": "weekly",
+  "name": "weekly-cli",
   "version": "1.0.0",
   "description": "A package to made our lives easy when build links to Weekly repositories",
   "main": "index.js",
-  "author": "William Oliveira <williamozsouza@gmail.com>",
+  "author": "William Oliveira <w.oliveira542@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "clipboardy": "^2.1.0",
