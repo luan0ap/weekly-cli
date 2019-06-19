@@ -1,0 +1,12 @@
+{
+  "name": "weekly",
+  "version": "1.0.0",
+  "description": "A package to made our lives easy when build links to Weekly repositories",
+  "main": "index.js",
+  "author": "William Oliveira <williamozsouza@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^2.1.0",
+    "prompts": "^2.1.0"
+  }
+}
