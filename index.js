@@ -10,7 +10,7 @@ const TEMPLATE = require('./constants').TEMPLATE;
 const regex = /title|url|description|category/gi;
 
 const onCancel = () => {
-  console.log('\n\nAté a próxima recomendação. :D');
+  console.log(LABELS.END);
   return false;
 };
 

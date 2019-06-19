@@ -38,7 +38,8 @@ const QUESTIONS = [
 
 const LABELS = {
   SUCCESS:
-    '\n\nO conteúdo foi gerado e está no seu clipboard, basta pressionar CTRL+V ou CMD+V na issue. ;)\n\n'
+    '\n\nO conteúdo foi gerado e está no seu clipboard, basta pressionar CTRL+V ou CMD+V na issue. ;)\n\n',
+  END: '\n\nAté a próxima recomendação. :D'
 };
 
 const TEMPLATE = `**[title}](url)**
