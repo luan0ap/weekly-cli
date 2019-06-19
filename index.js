@@ -9,11 +9,20 @@ const LABELS = require('./constants').LABELS;
 const TEMPLATE = require('./constants').TEMPLATE;
 const regex = /title|url|description|category/gi;
 
+const onCancel = () => {
+  console.log('\n\nAté a próxima recomendação. :D');
+  return false;
+};
+
 (async () => {
-  const response = await prompts(QUESTIONS);
-  const x = TEMPLATE.replace(regex, item => {
-    return response[item];
-  });
-  clipboardy.writeSync(x);
-  console.log(LABELS.SUCCESS);
+  const response = await prompts(QUESTIONS, {onCancel});
+  const hasAllResponses = Object.keys(response).length === 4;
+
+  if (hasAllResponses) {
+    const recommendation = TEMPLATE.replace(regex, item => {
+      return response[item];
+    });
+    clipboardy.writeSync(recommendation);
+    console.log(LABELS.SUCCESS);
+  }
 })();
