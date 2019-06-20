@@ -42,7 +42,7 @@ const LABELS = {
   END: '\n\nAté a próxima recomendação. :D'
 };
 
-const TEMPLATE = `**[title}](url)**
+const TEMPLATE = `**[title](url)**
 description
 *category*`;
 
